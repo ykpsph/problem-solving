@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class moveZeroesToEnd03 {
+public class array_moveZeroesToEnd03 {
     public static void swap(int[] arr, int i, int count) {
         int temp = arr[i];
         arr[i] = arr[count];
