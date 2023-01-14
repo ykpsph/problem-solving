@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class array_moveZeroesToEnd {
+public class array_moveZeroesToEnd01 {
 
     public static void moveZeroes(int[] arr) {
         System.out.println(Arrays.toString(arr));

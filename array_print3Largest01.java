@@ -1,4 +1,4 @@
-public class array_print3Largest {
+public class array_print3Largest01 {
     /* https://www.geeksforgeeks.org/array-data-structure/?ref=shm
      *
      *  find the largest three elements in an array.
