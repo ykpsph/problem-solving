@@ -12,6 +12,7 @@ public class array_segregateNumbers02 {
                 count++;
             }
         }
+        // odd
         for(int i : arr){
             if(i % 2 != 0){
                 temp[count] = i;
@@ -25,3 +26,5 @@ public class array_segregateNumbers02 {
         segregate(arr);
     }
 }
+// butun elemanlari gez ve bak i % 2 == 0 ----> temp[count] = i; count++;
+// butun elemanlari gez ve bak i % 2 != 0 ----> temp[count] = i; count++;
