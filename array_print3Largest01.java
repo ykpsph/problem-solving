@@ -27,7 +27,7 @@ public class array_print3Largest01 {
         int second;
         int third;
 
-        first = second = third = Integer.MIN_VALUE;
+        first = second = third = 0;
 
         int i;
         for(i = 0; i < arr.length; i++) {
@@ -47,7 +47,7 @@ public class array_print3Largest01 {
                 third = arr[i];
             }
         }
-        System.out.println("the largest three numbers: " + first + second + third);
+        System.out.println("third: "+third + " second: "+second+" first: "+first);
     }
 
     public static void main(String[] args) {

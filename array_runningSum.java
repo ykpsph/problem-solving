@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class array_runningSum {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4};
+        int[] nums = {4, 2, 6 ,8, 1};
         int[] result = new int[nums.length];
 
         result[0] = nums[0];
